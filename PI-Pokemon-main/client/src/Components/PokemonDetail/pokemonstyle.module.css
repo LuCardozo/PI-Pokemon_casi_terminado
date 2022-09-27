@@ -1,0 +1,31 @@
+.plantilla{
+    display: flex;
+    border: 5px solid orange;
+    border-radius: 10px;
+    background-color: rgb(211, 211, 120);
+    height: 430px;
+    width: 1050px;
+    margin: 20px;
+    flex-direction: row;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+}
+.dato{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    text-align: left;
+}
+h1{
+    display: flex;
+    justify-content: flex-start;
+}
+p{
+    font-family: cursive;
+}
